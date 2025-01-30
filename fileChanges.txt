@@ -1,6 +1,6 @@
 deleted one line and added this line
 this is third line
-this is 4th line
+deleted 4th line and added this line
 
 one line deleted above
 
