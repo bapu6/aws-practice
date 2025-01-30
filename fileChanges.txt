@@ -4,14 +4,15 @@ deleted 4th line and added this line
 
 one line deleted above
 
-soe other file changes after first commit
+some other file changes after first commit
 
 
 this line is added later
 
 these lines are added after 2nd commit
 
-
+added this line
 
 this is the line after 4th commit
-
+added a line before the last line
+added last line
