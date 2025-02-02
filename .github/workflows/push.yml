@@ -1,9 +1,6 @@
 name: On Push Workflow
 
-on:
-  push:
-    branches:
-      - main  # Change to the branch you want to trigger on
+on: push
 
 jobs:
   job1:
