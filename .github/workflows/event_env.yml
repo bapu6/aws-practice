@@ -7,5 +7,7 @@ on:
 jobs:
   job1:
     runs-on: ubuntu-latest
+    env:
+      ENV: ${{ vars.ENV }}
     steps:
-      - run: echo "running in env ${{ vars.ENV }}"
+      - run: echo "running in env $ENV"
