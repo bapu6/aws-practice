@@ -1,0 +1,10 @@
+name: issues workflow
+
+on: pull_request_review
+
+jobs:
+  job1: 
+    runs-on: ubuntu-latest
+    steps: 
+      - run: echo "triggered on pull request review"
+  
