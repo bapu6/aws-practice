@@ -1,0 +1,14 @@
+name: Event with filter and activity types
+
+on:
+  pull_request:
+    types: 
+      - opened
+      - syncronized
+    branches: 
+      - main
+jobs: 
+  event-jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Runs when pull request is open or synchronized"
