@@ -1,0 +1,13 @@
+name: triggers on fork
+
+run-name: ${{github.actor}}
+
+on: 
+  fork: 
+    types: [created]
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "triggers on fork"
