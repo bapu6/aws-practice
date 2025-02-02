@@ -6,7 +6,7 @@ on:
       - main  # Change to the branch you want to trigger on
 
 jobs:
-  build:
+  job1:
     runs-on: ubuntu-latest
     steps:
       - run : echo "display the workflow"
