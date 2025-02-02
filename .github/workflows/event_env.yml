@@ -1,0 +1,13 @@
+name: Env variables access
+
+on:
+  push: 
+    branches: 
+      - main
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    env:
+      PROJECT_VAR: ${{ vars.ENV }}
+    steps:
+      - run: echo "running in env ${{PROJECT_VAR}}"
