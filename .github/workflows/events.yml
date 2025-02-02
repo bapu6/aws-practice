@@ -1,0 +1,14 @@
+name: Event practice
+
+run-name: ${{github.event_name}}
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps: 
+      - run: echo "triggered by ${{github}}"
