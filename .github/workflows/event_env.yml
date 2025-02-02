@@ -8,6 +8,6 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     env:
-      ENV: ${{ vars.ENV }}
+      Var1: ${{ vars.TEST_ENV }}
     steps:
-      - run: echo "running in env $ENV"
+      - run: echo "running in env $Var1"
