@@ -1,4 +1,4 @@
-name: issues workflow
+name: pull request review workflow
 
 on: pull_request_review
 
