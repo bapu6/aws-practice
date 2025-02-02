@@ -10,4 +10,4 @@ jobs:
     env:
       PROJECT_VAR: ${{ vars.ENV }}
     steps:
-      - run: echo "running in env ${{PROJECT_VAR}}"
+      - run: echo "running in env $PROJECT_VAR"
