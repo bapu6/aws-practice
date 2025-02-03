@@ -12,3 +12,4 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - run: echo "triggered by ${{github}}"
+      - run: echo "trigger from ref - ${{github.ref}}"
