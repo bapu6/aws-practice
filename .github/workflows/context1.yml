@@ -14,3 +14,4 @@ jobs:
       - run: echo "triggered by ${{github.event_name}}"
       - run: echo "trigger from ref - ${{github.ref}}"
       - run: echo "wf triggered by user - ${{github.actor}}"
+      - run: echo "runner is - ${{github.runner_id}}"
