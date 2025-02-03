@@ -1,4 +1,4 @@
-name: Event practice
+name: Context practice
 
 run-name: ${{github.event_name}}
 
