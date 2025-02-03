@@ -11,5 +11,5 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps: 
-      - run: echo "triggered by ${{github}}"
+      - run: echo "triggered by ${{github.event_name}}"
       - run: echo "trigger from ref - ${{github.ref}}"
