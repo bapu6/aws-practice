@@ -19,4 +19,4 @@ jobs:
       - run: echo "runner is - ${{github.run_id}}"
       - run: echo "runner number is - ${{github.run_number}}"
       - run: echo "value of Var is - ${{env.Var}}" //it will prefer local value always
-      - run: echo "variable value of global is - ${{vars.MY_VAR1}}"
+      - run: echo "global variable value is - ${{vars.MY_VAR1}}"
